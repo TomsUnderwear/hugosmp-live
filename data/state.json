@@ -1169,6 +1169,16 @@
       "name": "big_shagooon",
       "source": "twitch",
       "addedAt": 1793814750899
+    },
+    {
+      "name": "mc_zynox",
+      "source": "twitch",
+      "addedAt": 1793815099173
+    },
+    {
+      "name": "gfire67",
+      "source": "twitch",
+      "addedAt": 1793815099173
     }
   ],
   "ignored": []
