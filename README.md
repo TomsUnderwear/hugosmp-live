@@ -14,6 +14,9 @@ Die Seite läuft kostenlos auf GitHub – auch wenn dein PC aus ist.
   (oder im Projektordner `gh secret set -f .env`).
 - Neu erkannte TikTok-Accounts schreibt der Lauf selbst in `data/state.json`. Zum Hinzufügen oder Entfernen
   diese Datei auf GitHub bearbeiten.
+- TikToks Minecraft-Feed liefert GitHub-Servern keine Daten. Auf GitHub werden deshalb nur die Accounts aus
+  `data/state.json` geprüft, inklusive Bilderkennung. Neue TikTok-Streamer kommen über Twitch-Treffer mit gleichem
+  Namen dazu oder wenn du sie in `data/state.json` einträgst.
 - Sofort neu abfragen: Repo → Actions → „Streams aktualisieren“ → Run workflow.
 - Das Repo muss öffentlich sein: Nur dann sind Actions-Minuten und Pages kostenlos. Geheimnisse liegen nur in den Secrets.
 
