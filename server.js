@@ -651,16 +651,40 @@ function feedUrl() {
   return 'https://webcast.tiktok.com/webcast/feed/?' + p;
 }
 
+// Besucher-Cookie (ttwid). Ohne liefert der Feed Servern ohne Vorgeschichte (z. B. GitHub) eine leere Antwort.
+let ttCookie = '';
+async function tiktokCookie() {
+  try {
+    const r = await fetch('https://www.tiktok.com/live', { headers: TT_HEADERS, signal: AbortSignal.timeout(15_000) });
+    await r.arrayBuffer();
+    return r.headers.getSetCookie().map((c) => c.split(';')[0]).filter((c) => /^(ttwid|tt_csrf_token|tt_chain_token)=/.test(c)).join('; ');
+  } catch {
+    return '';
+  }
+}
+
 /** Durchsucht TikToks Minecraft-Lives und erkennt HugoSMP-Spieler (Titel/Bio/Scoreboard). */
 async function scanTikTokFeed() {
   const found = new Map();
+  let retried = false;
   // Jeder Abruf liefert ~30 andere empfohlene Lives; seltene Läufe holen dafür mehr.
   for (let i = 0; i < (ONCE ? 6 : 3); i++) {
     const r = await fetch(feedUrl(), {
-      headers: { ...TT_HEADERS, Referer: 'https://www.tiktok.com/live/category/gaming/Minecraft' },
+      headers: { ...TT_HEADERS, Referer: 'https://www.tiktok.com/live/category/gaming/Minecraft', ...(ttCookie && { Cookie: ttCookie }) },
       signal: AbortSignal.timeout(15_000),
     });
-    const j = await r.json();
+    const text = await r.text();
+    if (!text.trim()) {
+      if (!retried) {
+        retried = true;
+        ttCookie = await tiktokCookie();
+        console.log(`[tiktok-feed] leere Antwort (HTTP ${r.status}) – neuer Versuch mit Besucher-Cookie (${ttCookie ? 'erhalten' : 'keins bekommen'})`);
+        i--;
+        continue;
+      }
+      throw new Error(`TikTok-Feed: leere Antwort (HTTP ${r.status})`);
+    }
+    const j = JSON.parse(text);
     if (j.status_code !== 0) throw new Error('TikTok-Feed: ' + (j.data?.message || j.status_code));
     for (const it of j.data || []) {
       const d = it.data;

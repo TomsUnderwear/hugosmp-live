@@ -6,3 +6,5 @@ data/cache.json
 data/*.tmp
 public/data/
 *.log
+secrets-hochladen.bat
+secrets-log.txt
