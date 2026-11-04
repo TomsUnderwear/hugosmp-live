@@ -1,0 +1,22 @@
+{
+  "port": 3000,
+  "tags": ["Auction", "Hugosmp"],
+  "matchHashtags": true,
+  "matchPlainText": true,
+  "vod": {
+    "anywhere": ["rerun", "wiederholung", "reupload", "nicht live", "kein live", "not live", "vod läuft"],
+    "marked": ["vod", "replay", "aufzeichnung", "restream"]
+  },
+  "twitch": {
+    "languages": ["de"],
+    "gameIds": [],
+    "maxPages": 150,
+    "refreshSeconds": 60,
+    "excludeEmoteOnly": true
+  },
+  "tiktok": {
+    "refreshSeconds": 120,
+    "autoAddTwitchStreamers": true,
+    "concurrency": 3
+  }
+}

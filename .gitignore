@@ -1,0 +1,8 @@
+node_modules/
+.env
+tools/
+data/ocr/
+data/cache.json
+data/*.tmp
+public/data/
+*.log

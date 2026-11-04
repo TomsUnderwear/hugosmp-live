@@ -1,0 +1,84 @@
+# Fragt alle 5 Minuten Twitch und TikTok ab und veröffentlicht die Seite auf GitHub Pages.
+# GitHub startet geplante Läufe nicht auf die Minute genau – oft 5 bis 15 Minuten Abstand.
+name: Streams aktualisieren
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write # Accountliste (data/state.json) sichern
+  pages: write
+  id-token: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --no-audit --no-fund
+
+      # Sprachdaten für die Texterkennung (~5 MB) nur einmal laden
+      - uses: actions/cache@v4
+        with:
+          path: data/ocr
+          key: ocr-eng-1
+
+      # Prüfstände vom letzten Lauf (welche Lives schon erkannt/geprüft sind)
+      - uses: actions/cache/restore@v4
+        with:
+          path: data/cache.json
+          key: scan-${{ github.run_id }}
+          restore-keys: scan-
+
+      - name: Twitch und TikTok abfragen
+        run: node server.js --once
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: data/cache.json
+          key: scan-${{ github.run_id }}
+
+      # Neu erkannte TikTok-Accounts ins Repo schreiben. Ein Commit alle 45 Tage hält
+      # den Zeitplan am Leben (GitHub pausiert ihn sonst nach 60 Tagen ohne Aktivität).
+      - name: Accountliste sichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "TikTok-Accounts aktualisiert"
+          elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt 3888000 ]; then
+            git commit --allow-empty -m "Zeitplan aktiv halten"
+          else
+            exit 0
+          fi
+          git pull --rebase --quiet && git push --quiet
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>HugoSMP Live</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-platform="twitch">
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <div class="nav-title" aria-hidden="true">Live</div>
+
+      <div class="segmented" id="segmented" role="tablist" aria-label="Plattform">
+        <span class="seg-thumb" aria-hidden="true"></span>
+        <button class="seg" role="tab" id="tab-twitch" data-platform="twitch" aria-selected="true" aria-controls="content">
+          <span class="seg-label">Twitch</span><span class="seg-count" data-count="twitch">–</span>
+        </button>
+        <button class="seg" role="tab" id="tab-tiktok" data-platform="tiktok" aria-selected="false" aria-controls="content" tabindex="-1">
+          <span class="seg-label">TikTok</span><span class="seg-count" data-count="tiktok">–</span>
+        </button>
+      </div>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="refreshBtn" type="button" aria-label="Jetzt aktualisieren" title="Jetzt aktualisieren">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v4.5h-4.5"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="hero">
+      <h1 class="large-title" id="largeTitle">Live</h1>
+      <p class="subtitle"><span id="tagLine">[Auction] · [Hugosmp]</span> <span class="dot-sep" aria-hidden="true">·</span> <span id="status" aria-live="polite">Verbinde …</span></p>
+    </div>
+
+    <div class="toolbar">
+      <div class="chips" id="chips" role="group" aria-label="Nach Tag filtern"></div>
+      <div class="toolbar-right">
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 4.5 4.5"/></svg>
+          <input id="search" type="search" placeholder="Name oder Titel" autocomplete="off" spellcheck="false" aria-label="Streams durchsuchen">
+        </label>
+        <label class="sort">
+          <span class="visually-hidden">Sortierung</span>
+          <select id="sort">
+            <option value="viewers">Zuschauer</option>
+            <option value="recent">Neueste</option>
+            <option value="name">Name</option>
+          </select>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+        </label>
+      </div>
+    </div>
+
+    <div id="notice"></div>
+
+    <section id="content" role="tabpanel" aria-labelledby="tab-twitch">
+      <div class="grid" id="grid"></div>
+      <div id="empty"></div>
+      <details class="excluded" id="excluded" hidden>
+        <summary>
+          <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+          <span id="excludedSummary"></span>
+        </summary>
+        <ul id="excludedList"></ul>
+      </details>
+    </section>
+  </main>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+    <div class="sheet-handle" id="sheetHandle">
+      <div class="grabber" aria-hidden="true"></div>
+      <div class="sheet-header">
+        <h2 id="sheetTitle">TikTok-Accounts</h2>
+        <button class="text-btn" id="sheetDone" type="button">Fertig</button>
+      </div>
+    </div>
+    <div class="sheet-body">
+      <p class="sheet-note" id="sheetNote">TikTok bietet keine öffentliche Live-Suche. Diese Accounts werden regelmäßig geprüft – erscheinen sie live mit einem der Tags, landen sie in der Übersicht.</p>
+      <form class="add-form" id="addForm" novalidate>
+        <label class="add-field">
+          <span class="at" aria-hidden="true">@</span>
+          <input id="addInput" name="name" placeholder="benutzername" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="TikTok-Benutzername" aria-describedby="addError">
+        </label>
+        <button class="pill-btn" id="addBtn" type="submit" disabled>Hinzufügen</button>
+      </form>
+      <p class="field-error" id="addError" role="alert"></p>
+      <ul class="acc-list" id="accList" aria-label="Geprüfte Accounts"></ul>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
