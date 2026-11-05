@@ -2104,6 +2104,21 @@
       "name": "der_ware_sn1pez",
       "source": "twitch",
       "addedAt": 1793909719413
+    },
+    {
+      "name": "bigarollin",
+      "source": "twitch",
+      "addedAt": 1793912667652
+    },
+    {
+      "name": "elirobelbox",
+      "source": "twitch",
+      "addedAt": 1793912667652
+    },
+    {
+      "name": "nelord1",
+      "source": "twitch",
+      "addedAt": 1793912667652
     }
   ],
   "ignored": []
