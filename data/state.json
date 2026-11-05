@@ -1489,6 +1489,16 @@
       "name": "leontrixs",
       "source": "twitch",
       "addedAt": 1793846670020
+    },
+    {
+      "name": "philipp_odw",
+      "source": "twitch",
+      "addedAt": 1793853315978
+    },
+    {
+      "name": "makakrele",
+      "source": "twitch",
+      "addedAt": 1793853315978
     }
   ],
   "ignored": []
