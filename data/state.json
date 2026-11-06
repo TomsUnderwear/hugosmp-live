@@ -2164,6 +2164,11 @@
       "name": "azy_tw",
       "source": "twitch",
       "addedAt": 1793951527894
+    },
+    {
+      "name": "sprintx_de",
+      "source": "twitch",
+      "addedAt": 1793958066814
     }
   ],
   "ignored": []
