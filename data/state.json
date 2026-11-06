@@ -2189,6 +2189,11 @@
       "name": "joshifnclip",
       "source": "twitch",
       "addedAt": 1793964763884
+    },
+    {
+      "name": "nadeghost",
+      "source": "twitch",
+      "addedAt": 1793967987308
     }
   ],
   "ignored": []
