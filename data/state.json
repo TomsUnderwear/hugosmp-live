@@ -3024,6 +3024,31 @@
       "name": "halil_smp",
       "source": "twitch",
       "addedAt": 1794046878188
+    },
+    {
+      "name": "kaigooo1",
+      "source": "twitch",
+      "addedAt": 1794049349065
+    },
+    {
+      "name": "1xjonix1",
+      "source": "twitch",
+      "addedAt": 1794049349065
+    },
+    {
+      "name": "hundecrafty_live",
+      "source": "twitch",
+      "addedAt": 1794049349065
+    },
+    {
+      "name": "lonexx3",
+      "source": "twitch",
+      "addedAt": 1794049349066
+    },
+    {
+      "name": "speegu",
+      "source": "twitch",
+      "addedAt": 1794049349066
     }
   ],
   "ignored": []
