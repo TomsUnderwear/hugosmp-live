@@ -2954,6 +2954,31 @@
       "name": "serdling",
       "source": "twitch",
       "addedAt": 1794017664383
+    },
+    {
+      "name": "pepsi_quest",
+      "source": "twitch",
+      "addedAt": 1794038824274
+    },
+    {
+      "name": "robin301013",
+      "source": "twitch",
+      "addedAt": 1794038824274
+    },
+    {
+      "name": "f4rnyyy",
+      "source": "twitch",
+      "addedAt": 1794038824274
+    },
+    {
+      "name": "wolkietv",
+      "source": "twitch",
+      "addedAt": 1794038824274
+    },
+    {
+      "name": "wecker_klingelt",
+      "source": "twitch",
+      "addedAt": 1794038824275
     }
   ],
   "ignored": []
