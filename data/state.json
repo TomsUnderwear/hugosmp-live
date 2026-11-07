@@ -2979,6 +2979,11 @@
       "name": "wecker_klingelt",
       "source": "twitch",
       "addedAt": 1794038824275
+    },
+    {
+      "name": "jannes457",
+      "source": "twitch",
+      "addedAt": 1794041676016
     }
   ],
   "ignored": []
