@@ -4229,6 +4229,16 @@
       "name": "fakey_ishere",
       "source": "twitch",
       "addedAt": 1794167423622
+    },
+    {
+      "name": "fabe551",
+      "source": "twitch",
+      "addedAt": 1794169298000
+    },
+    {
+      "name": "balthawild",
+      "source": "twitch",
+      "addedAt": 1794169298000
     }
   ],
   "ignored": []
