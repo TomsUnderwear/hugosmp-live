@@ -4239,6 +4239,11 @@
       "name": "balthawild",
       "source": "twitch",
       "addedAt": 1794169298000
+    },
+    {
+      "name": "lennoxfromdablock",
+      "source": "twitch",
+      "addedAt": 1794179919861
     }
   ],
   "ignored": []
