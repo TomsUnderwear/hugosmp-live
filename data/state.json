@@ -3874,6 +3874,21 @@
       "name": "oskarflash",
       "source": "twitch",
       "addedAt": 1794136603627
+    },
+    {
+      "name": "nico4619",
+      "source": "twitch",
+      "addedAt": 1794138942820
+    },
+    {
+      "name": "blitzerbenno",
+      "source": "twitch",
+      "addedAt": 1794138942821
+    },
+    {
+      "name": "saxorinotv",
+      "source": "twitch",
+      "addedAt": 1794138942821
     }
   ],
   "ignored": []
