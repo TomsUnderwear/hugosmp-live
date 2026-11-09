@@ -4244,6 +4244,11 @@
       "name": "lennoxfromdablock",
       "source": "twitch",
       "addedAt": 1794179919861
+    },
+    {
+      "name": "dernico_n",
+      "source": "twitch",
+      "addedAt": 1794188781348
     }
   ],
   "ignored": []
