@@ -4479,6 +4479,11 @@
       "name": "wvexx",
       "source": "twitch",
       "addedAt": 1794312128075
+    },
+    {
+      "name": "wild_jonas07",
+      "source": "twitch",
+      "addedAt": 1794315558588
     }
   ],
   "ignored": []
