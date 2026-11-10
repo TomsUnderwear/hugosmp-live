@@ -4549,6 +4549,26 @@
       "name": "tassadar1337",
       "source": "twitch",
       "addedAt": 1794325450327
+    },
+    {
+      "name": "cracklincraft",
+      "source": "twitch",
+      "addedAt": 1794328335878
+    },
+    {
+      "name": "kait_xyt",
+      "source": "twitch",
+      "addedAt": 1794328335878
+    },
+    {
+      "name": "oskaronrl",
+      "source": "twitch",
+      "addedAt": 1794328335878
+    },
+    {
+      "name": "belikemarv",
+      "source": "twitch",
+      "addedAt": 1794328335878
     }
   ],
   "ignored": []
