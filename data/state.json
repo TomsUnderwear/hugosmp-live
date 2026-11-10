@@ -4464,6 +4464,11 @@
       "name": "trinitivv",
       "source": "twitch",
       "addedAt": 1794259344948
+    },
+    {
+      "name": "schueb1",
+      "source": "twitch",
+      "addedAt": 1794296117002
     }
   ],
   "ignored": []
