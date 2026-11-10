@@ -4649,6 +4649,11 @@
       "name": "fabii_k1",
       "source": "twitch",
       "addedAt": 1794345382010
+    },
+    {
+      "name": "darknibor",
+      "source": "twitch",
+      "addedAt": 1794347863227
     }
   ],
   "ignored": []
