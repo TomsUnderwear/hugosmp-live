@@ -4539,6 +4539,16 @@
       "name": "ein_mogi",
       "source": "twitch",
       "addedAt": 1794322740985
+    },
+    {
+      "name": "minestar_tv",
+      "source": "twitch",
+      "addedAt": 1794325450327
+    },
+    {
+      "name": "tassadar1337",
+      "source": "twitch",
+      "addedAt": 1794325450327
     }
   ],
   "ignored": []
