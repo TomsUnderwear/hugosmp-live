@@ -4789,6 +4789,11 @@
       "name": "thexamtv",
       "source": "twitch",
       "addedAt": 1794427580185
+    },
+    {
+      "name": "speedychange",
+      "source": "twitch",
+      "addedAt": 1794436688955
     }
   ],
   "ignored": []
