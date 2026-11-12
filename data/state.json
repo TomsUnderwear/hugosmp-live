@@ -4899,6 +4899,21 @@
       "name": "smpmex",
       "source": "twitch",
       "addedAt": 1794497960732
+    },
+    {
+      "name": "appa_hd",
+      "source": "twitch",
+      "addedAt": 1794501649597
+    },
+    {
+      "name": "ghost_benten",
+      "source": "twitch",
+      "addedAt": 1794501649597
+    },
+    {
+      "name": "w2ezy",
+      "source": "twitch",
+      "addedAt": 1794501649597
     }
   ],
   "ignored": []
