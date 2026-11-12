@@ -4824,6 +4824,21 @@
       "name": "hotterhengst",
       "source": "twitch",
       "addedAt": 1794483470758
+    },
+    {
+      "name": "shadcrafter",
+      "source": "twitch",
+      "addedAt": 1794491520275
+    },
+    {
+      "name": "skycill_twitch",
+      "source": "twitch",
+      "addedAt": 1794491520275
+    },
+    {
+      "name": "meusticzero",
+      "source": "twitch",
+      "addedAt": 1794491520275
     }
   ],
   "ignored": []
