@@ -4794,6 +4794,16 @@
       "name": "speedychange",
       "source": "twitch",
       "addedAt": 1794436688955
+    },
+    {
+      "name": "amar_pro325",
+      "source": "twitch",
+      "addedAt": 1794473096475
+    },
+    {
+      "name": "shorty_gaming_",
+      "source": "twitch",
+      "addedAt": 1794473096475
     }
   ],
   "ignored": []
