@@ -5009,6 +5009,11 @@
       "name": "tinonoxy",
       "source": "twitch",
       "addedAt": 1794547943751
+    },
+    {
+      "name": "schmapser",
+      "source": "twitch",
+      "addedAt": 1794556299368
     }
   ],
   "ignored": []
