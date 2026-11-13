@@ -5014,6 +5014,11 @@
       "name": "schmapser",
       "source": "twitch",
       "addedAt": 1794556299368
+    },
+    {
+      "name": "beytrix__",
+      "source": "twitch",
+      "addedAt": 1794559406985
     }
   ],
   "ignored": []
