@@ -5179,6 +5179,26 @@
       "name": "hamudistreak",
       "source": "twitch",
       "addedAt": 1794586823186
+    },
+    {
+      "name": "dokungaming",
+      "source": "twitch",
+      "addedAt": 1794590246357
+    },
+    {
+      "name": "lucax_cxt",
+      "source": "twitch",
+      "addedAt": 1794590246357
+    },
+    {
+      "name": "fantaexoic",
+      "source": "twitch",
+      "addedAt": 1794590246357
+    },
+    {
+      "name": "elocinyt",
+      "source": "twitch",
+      "addedAt": 1794590246357
     }
   ],
   "ignored": []
