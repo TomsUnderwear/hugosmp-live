@@ -5479,6 +5479,26 @@
       "name": "lexisky_tv",
       "source": "twitch",
       "addedAt": 1794655050968
+    },
+    {
+      "name": "detrox685",
+      "source": "twitch",
+      "addedAt": 1794657432110
+    },
+    {
+      "name": "fst_salami",
+      "source": "twitch",
+      "addedAt": 1794657432110
+    },
+    {
+      "name": "x_zynexx",
+      "source": "twitch",
+      "addedAt": 1794657432110
+    },
+    {
+      "name": "mattnzhch",
+      "source": "twitch",
+      "addedAt": 1794657432110
     }
   ],
   "ignored": []
