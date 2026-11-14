@@ -5474,6 +5474,11 @@
       "name": "td_lotadorr",
       "source": "twitch",
       "addedAt": 1794652801747
+    },
+    {
+      "name": "lexisky_tv",
+      "source": "twitch",
+      "addedAt": 1794655050968
     }
   ],
   "ignored": []
