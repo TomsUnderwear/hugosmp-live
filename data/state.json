@@ -6014,6 +6014,11 @@
       "name": "hugosmpspieler",
       "source": "twitch",
       "addedAt": 1794701596923
+    },
+    {
+      "name": "xrushex_",
+      "source": "twitch",
+      "addedAt": 1794705709673
     }
   ],
   "ignored": []
