@@ -6144,6 +6144,16 @@
       "name": "lunisch2",
       "source": "twitch",
       "addedAt": 1794741884665
+    },
+    {
+      "name": "shirarus_ttv",
+      "source": "twitch",
+      "addedAt": 1794744361745
+    },
+    {
+      "name": "gamerjan4444",
+      "source": "twitch",
+      "addedAt": 1794744361745
     }
   ],
   "ignored": []
