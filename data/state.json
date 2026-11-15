@@ -6469,6 +6469,36 @@
       "name": "haizycore",
       "source": "twitch",
       "addedAt": 1794769847723
+    },
+    {
+      "name": "mikivelle",
+      "source": "twitch",
+      "addedAt": 1794772229786
+    },
+    {
+      "name": "devin261592",
+      "source": "twitch",
+      "addedAt": 1794772229786
+    },
+    {
+      "name": "mcsonos",
+      "source": "twitch",
+      "addedAt": 1794772229786
+    },
+    {
+      "name": "wastedsync",
+      "source": "twitch",
+      "addedAt": 1794772229786
+    },
+    {
+      "name": "ezx_stinoz",
+      "source": "twitch",
+      "addedAt": 1794772229786
+    },
+    {
+      "name": "leomendint",
+      "source": "twitch",
+      "addedAt": 1794772229786
     }
   ],
   "ignored": []
