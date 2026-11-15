@@ -6004,6 +6004,16 @@
       "name": "klebstoff_92",
       "source": "twitch",
       "addedAt": 1794699534046
+    },
+    {
+      "name": "sossenbyndr",
+      "source": "twitch",
+      "addedAt": 1794701596923
+    },
+    {
+      "name": "hugosmpspieler",
+      "source": "twitch",
+      "addedAt": 1794701596923
     }
   ],
   "ignored": []
