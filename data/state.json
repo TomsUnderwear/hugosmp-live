@@ -6944,6 +6944,11 @@
       "name": "staerk1",
       "source": "twitch",
       "addedAt": 1794866520319
+    },
+    {
+      "name": "ch0sen_109",
+      "source": "twitch",
+      "addedAt": 1794871682532
     }
   ],
   "ignored": []
