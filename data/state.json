@@ -6919,6 +6919,26 @@
       "name": "lino_acc",
       "source": "twitch",
       "addedAt": 1794860694254
+    },
+    {
+      "name": "slidjokeryt",
+      "source": "twitch",
+      "addedAt": 1794863676608
+    },
+    {
+      "name": "welkenzorn",
+      "source": "twitch",
+      "addedAt": 1794863676608
+    },
+    {
+      "name": "lcyclix",
+      "source": "twitch",
+      "addedAt": 1794863676608
+    },
+    {
+      "name": "realmrmarvinfn",
+      "source": "twitch",
+      "addedAt": 1794863676609
     }
   ],
   "ignored": []
