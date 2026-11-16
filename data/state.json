@@ -6544,6 +6544,11 @@
       "name": "luketxhd",
       "source": "twitch",
       "addedAt": 1794794200488
+    },
+    {
+      "name": "derzer0x",
+      "source": "twitch",
+      "addedAt": 1794821131791
     }
   ],
   "ignored": []
