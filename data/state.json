@@ -6984,6 +6984,31 @@
       "name": "flexmaster200",
       "source": "twitch",
       "addedAt": 1794914975808
+    },
+    {
+      "name": "miina_04",
+      "source": "twitch",
+      "addedAt": 1794922846346
+    },
+    {
+      "name": "varenox",
+      "source": "twitch",
+      "addedAt": 1794922846346
+    },
+    {
+      "name": "ontopluc",
+      "source": "twitch",
+      "addedAt": 1794922846347
+    },
+    {
+      "name": "nouaura",
+      "source": "twitch",
+      "addedAt": 1794922846347
+    },
+    {
+      "name": "iron_meex",
+      "source": "twitch",
+      "addedAt": 1794922846347
     }
   ],
   "ignored": []
