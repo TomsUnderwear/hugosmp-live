@@ -7369,6 +7369,11 @@
       "name": "iz_charging",
       "source": "twitch",
       "addedAt": 1794993452861
+    },
+    {
+      "name": "petersonfndus",
+      "source": "twitch",
+      "addedAt": 1794997514205
     }
   ],
   "ignored": []
