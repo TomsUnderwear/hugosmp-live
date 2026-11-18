@@ -7374,6 +7374,21 @@
       "name": "petersonfndus",
       "source": "twitch",
       "addedAt": 1794997514205
+    },
+    {
+      "name": "triasttv",
+      "source": "twitch",
+      "addedAt": 1795004370331
+    },
+    {
+      "name": "flosocke_",
+      "source": "twitch",
+      "addedAt": 1795004370331
+    },
+    {
+      "name": "einsky_",
+      "source": "twitch",
+      "addedAt": 1795004370331
     }
   ],
   "ignored": []
