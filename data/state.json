@@ -7689,6 +7689,16 @@
       "name": "chr0mictv",
       "source": "twitch",
       "addedAt": 1795078826187
+    },
+    {
+      "name": "nexorfp",
+      "source": "twitch",
+      "addedAt": 1795086029948
+    },
+    {
+      "name": "lohnlich",
+      "source": "twitch",
+      "addedAt": 1795086029948
     }
   ],
   "ignored": []
