@@ -7889,6 +7889,26 @@
       "name": "mysticminer_hd",
       "source": "twitch",
       "addedAt": 1795115937967
+    },
+    {
+      "name": "shady74_live",
+      "source": "twitch",
+      "addedAt": 1795119660305
+    },
+    {
+      "name": "fontix__tv",
+      "source": "twitch",
+      "addedAt": 1795119660306
+    },
+    {
+      "name": "befish24k",
+      "source": "twitch",
+      "addedAt": 1795119660306
+    },
+    {
+      "name": "karter_yt",
+      "source": "twitch",
+      "addedAt": 1795119660306
     }
   ],
   "ignored": []
