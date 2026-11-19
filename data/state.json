@@ -7674,6 +7674,11 @@
       "name": "einfachnvklas",
       "source": "twitch",
       "addedAt": 1795053289779
+    },
+    {
+      "name": "azad_ghost",
+      "source": "twitch",
+      "addedAt": 1795066928352
     }
   ],
   "ignored": []
