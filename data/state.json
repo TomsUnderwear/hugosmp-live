@@ -7969,6 +7969,16 @@
       "name": "vryzontv",
       "source": "twitch",
       "addedAt": 1795174737584
+    },
+    {
+      "name": "boffohd",
+      "source": "twitch",
+      "addedAt": 1795178329965
+    },
+    {
+      "name": "mat_5600",
+      "source": "twitch",
+      "addedAt": 1795178329965
     }
   ],
   "ignored": []
