@@ -8504,6 +8504,11 @@
       "name": "einfachvalli",
       "source": "twitch",
       "addedAt": 1795225494596
+    },
+    {
+      "name": "freeeando",
+      "source": "twitch",
+      "addedAt": 1795231627601
     }
   ],
   "ignored": []
