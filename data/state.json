@@ -8544,6 +8544,26 @@
       "name": "julianpvg",
       "source": "twitch",
       "addedAt": 1795255668264
+    },
+    {
+      "name": "nurnemo",
+      "source": "twitch",
+      "addedAt": 1795258344625
+    },
+    {
+      "name": "maxi_13pro2",
+      "source": "twitch",
+      "addedAt": 1795258344625
+    },
+    {
+      "name": "exd_edek",
+      "source": "twitch",
+      "addedAt": 1795258344626
+    },
+    {
+      "name": "phil8447",
+      "source": "twitch",
+      "addedAt": 1795258344626
     }
   ],
   "ignored": []
