@@ -9044,6 +9044,11 @@
       "name": "yniquede",
       "source": "twitch",
       "addedAt": 1795314145299
+    },
+    {
+      "name": "v2kevin",
+      "source": "twitch",
+      "addedAt": 1795317218148
     }
   ],
   "ignored": []
