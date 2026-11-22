@@ -9144,6 +9144,21 @@
       "name": "hugosmpliveautions",
       "source": "twitch",
       "addedAt": 1795346112769
+    },
+    {
+      "name": "erholsamer",
+      "source": "twitch",
+      "addedAt": 1795348618565
+    },
+    {
+      "name": "loxelhdx",
+      "source": "twitch",
+      "addedAt": 1795348618565
+    },
+    {
+      "name": "ryzerx5",
+      "source": "twitch",
+      "addedAt": 1795348618565
     }
   ],
   "ignored": []
