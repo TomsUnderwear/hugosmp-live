@@ -9569,6 +9569,16 @@
       "name": "rqt3_",
       "source": "twitch",
       "addedAt": 1795374000093
+    },
+    {
+      "name": "xyzoomtv",
+      "source": "twitch",
+      "addedAt": 1795376898128
+    },
+    {
+      "name": "saku_piano",
+      "source": "twitch",
+      "addedAt": 1795376898130
     }
   ],
   "ignored": []
