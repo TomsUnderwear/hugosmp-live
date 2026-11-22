@@ -9029,6 +9029,11 @@
       "name": "pliesche2000",
       "source": "twitch",
       "addedAt": 1795306265401
+    },
+    {
+      "name": "the_nice_sammy",
+      "source": "twitch",
+      "addedAt": 1795310268353
     }
   ],
   "ignored": []
