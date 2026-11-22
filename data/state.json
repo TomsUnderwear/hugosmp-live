@@ -9619,6 +9619,11 @@
       "name": "mehrschad_n",
       "source": "twitch",
       "addedAt": 1795387459522
+    },
+    {
+      "name": "lordgreedious",
+      "source": "twitch",
+      "addedAt": 1795390038390
     }
   ],
   "ignored": []
