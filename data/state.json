@@ -9649,6 +9649,21 @@
       "name": "vexo__yt",
       "source": "twitch",
       "addedAt": 1795431047971
+    },
+    {
+      "name": "aimshock",
+      "source": "twitch",
+      "addedAt": 1795433962556
+    },
+    {
+      "name": "fipulp22",
+      "source": "twitch",
+      "addedAt": 1795433962556
+    },
+    {
+      "name": "ferdi11r",
+      "source": "twitch",
+      "addedAt": 1795433962556
     }
   ],
   "ignored": []
