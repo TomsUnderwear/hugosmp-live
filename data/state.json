@@ -9834,6 +9834,11 @@
       "name": "xxyzpd",
       "source": "twitch",
       "addedAt": 1795507453888
+    },
+    {
+      "name": "lennimctv",
+      "source": "twitch",
+      "addedAt": 1795511201820
     }
   ],
   "ignored": []
