@@ -9839,6 +9839,11 @@
       "name": "lennimctv",
       "source": "twitch",
       "addedAt": 1795511201820
+    },
+    {
+      "name": "quityy1",
+      "source": "twitch",
+      "addedAt": 1795515302606
     }
   ],
   "ignored": []
