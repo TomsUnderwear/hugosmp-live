@@ -9824,6 +9824,16 @@
       "name": "finox_tv",
       "source": "twitch",
       "addedAt": 1795467739765
+    },
+    {
+      "name": "weizenkind",
+      "source": "twitch",
+      "addedAt": 1795507453887
+    },
+    {
+      "name": "xxyzpd",
+      "source": "twitch",
+      "addedAt": 1795507453888
     }
   ],
   "ignored": []
