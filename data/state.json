@@ -9844,6 +9844,11 @@
       "name": "quityy1",
       "source": "twitch",
       "addedAt": 1795515302606
+    },
+    {
+      "name": "toogoodtwitch",
+      "source": "twitch",
+      "addedAt": 1795521968643
     }
   ],
   "ignored": []
