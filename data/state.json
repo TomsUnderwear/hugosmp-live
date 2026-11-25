@@ -10009,6 +10009,11 @@
       "name": "zitrus01",
       "source": "twitch",
       "addedAt": 1795558793058
+    },
+    {
+      "name": "playhugosmp",
+      "source": "twitch",
+      "addedAt": 1795568991061
     }
   ],
   "ignored": []
