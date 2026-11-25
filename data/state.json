@@ -10014,6 +10014,11 @@
       "name": "playhugosmp",
       "source": "twitch",
       "addedAt": 1795568991061
+    },
+    {
+      "name": "n1x_glory",
+      "source": "twitch",
+      "addedAt": 1795593870153
     }
   ],
   "ignored": []
