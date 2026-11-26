@@ -10254,6 +10254,16 @@
       "name": "speed_mirac202y",
       "source": "twitch",
       "addedAt": 1795688095733
+    },
+    {
+      "name": "ttffabi",
+      "source": "twitch",
+      "addedAt": 1795691613139
+    },
+    {
+      "name": "max_bln196",
+      "source": "twitch",
+      "addedAt": 1795691613139
     }
   ],
   "ignored": []
