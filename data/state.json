@@ -10629,6 +10629,16 @@
       "name": "fynn_ongo",
       "source": "twitch",
       "addedAt": 1795811292803
+    },
+    {
+      "name": "greedquest",
+      "source": "twitch",
+      "addedAt": 1795814819470
+    },
+    {
+      "name": "ragekilck",
+      "source": "twitch",
+      "addedAt": 1795814819470
     }
   ],
   "ignored": []
