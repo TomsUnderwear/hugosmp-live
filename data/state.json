@@ -10714,6 +10714,11 @@
       "name": "chaos_kid_14",
       "source": "twitch",
       "addedAt": 1795855173121
+    },
+    {
+      "name": "mc_whitestar",
+      "source": "twitch",
+      "addedAt": 1795858387763
     }
   ],
   "ignored": []
