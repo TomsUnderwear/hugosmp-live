@@ -10984,6 +10984,16 @@
       "name": "luis_159x",
       "source": "twitch",
       "addedAt": 1795886124283
+    },
+    {
+      "name": "xxdavid_07",
+      "source": "twitch",
+      "addedAt": 1795888765043
+    },
+    {
+      "name": "kynox__tv",
+      "source": "twitch",
+      "addedAt": 1795888765043
     }
   ],
   "ignored": []
