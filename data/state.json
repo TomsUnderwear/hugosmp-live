@@ -10889,6 +10889,31 @@
       "name": "axbit_tv",
       "source": "twitch",
       "addedAt": 1795877553127
+    },
+    {
+      "name": "miguel_xyc",
+      "source": "twitch",
+      "addedAt": 1795879989418
+    },
+    {
+      "name": "turb0nate",
+      "source": "twitch",
+      "addedAt": 1795879989418
+    },
+    {
+      "name": "donutsamp",
+      "source": "twitch",
+      "addedAt": 1795879989418
+    },
+    {
+      "name": "fragger_queek",
+      "source": "twitch",
+      "addedAt": 1795879989418
+    },
+    {
+      "name": "aerik11",
+      "source": "twitch",
+      "addedAt": 1795879989418
     }
   ],
   "ignored": []
